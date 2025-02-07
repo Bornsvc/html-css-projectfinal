@@ -319,6 +319,7 @@ nav {
     }
     
     .btn {
+        width: 180px;
         background: white;
         color: black;
         border: none;

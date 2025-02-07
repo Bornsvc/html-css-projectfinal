@@ -76,11 +76,78 @@ nav {
     }
 }
 
+main {
+    padding: 30px 80px;
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .About_us {
+        color: #166534;
+        margin-bottom: 2.5rem;
+    }
+    .Detail {
+        margin-left: 3rem;
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+        margin-bottom: 4rem;
+    }
+
+    .Team_Member {
+        text-align: center;
+
+        h1 {
+            color: #166534;
+            margin-bottom: 4rem;
+        }
+
+        .container_card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10rem;
+            row-gap: 10px;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .Text_IG {
+                    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    display: inline-block;
+                }
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 18px;
+                    transition: all 0.3s ease-in-out;
+                    transform: scale(1); 
+                    margin-bottom: 10px;
+                    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+                }
+        
+                img:hover {
+                    transform: scale(0.9); 
+                    box-shadow: 25px 20px 10px rgba(0, 0, 0, 0.3);
+                }
+            }
+
+        }
+
+    }
+}
+
 .footer {
     padding: 40px 20px;
+    width: 100%;
     font-family: Arial, sans-serif;
     background-color: #000; 
     color: #ccc; 
+    margin-top: 3rem;
 
     .footer-container {
         display: flex;

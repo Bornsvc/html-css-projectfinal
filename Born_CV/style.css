@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px 50px;  
+    background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+    color: #333;
+
+    #Back_icon {
+      font-size: 3rem;
+    }
+
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout */
+  .cv-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 30%;
+    background: linear-gradient(to bottom, #007bff, #4c83ff);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sidebar .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar .profile h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar .profile .job-title {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #cce7ff;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+  
+  .sidebar ul li i {
+    margin-right: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #cce7ff;
+  }
+  
+  .sidebar .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .sidebar .skills ul li {
+    background: #0056b3;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: white;
+  }
+  
+  /* Main Content */
+  .main-content {
+    width: 70%;
+    padding: 30px;
+  }
+  
+  .main-content section {
+    margin-bottom: 30px;
+  }
+  
+  .main-content h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .main-content p {
+    line-height: 1.6;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .card ul li {
+    margin: 5px 0;
+  }
+  
