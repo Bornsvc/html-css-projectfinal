@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Dashboard</title>
+    <link rel="stylesheet" href="/css/candidate.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <img src="/img/ECG-/img/profile.webp" alt="">
+
+        <ul>
+          <a href="/page/home.html">Home</a>
+          <a href="/page/Find_Jobs.html">Find Jobs</a>
+          <a href="#">Companies</a>
+          <a href="#">Training</a>
+          <a href="/page/candidate.html">Candidates</a>
+        </ul>
+        
+        <img src="/img/profile.webp" class="profile" alt="">
+    </nav>
+
+    <div class="main_section">
+        <aside class="sidebar">
+            <h3 class="dashboard-title">CANDIDATE DASHBOARD</h3>
+            <ul class="menu">
+                <li class="menu-item active">
+                    <span class="icon">📂</span>
+                    <a href="#">Overview</a>
+                </li>
+                <li class="menu-item">
+                    <span class="icon">💼</span>
+                    <a href="#">Applied Jobs</a>
+                </li>
+                <li class="menu-item">
+                    <span class="icon">🔖</span>
+                    <a href="#">Favorite Jobs</a>
+                </li>
+                <li class="menu-item">
+                    <span class="icon">🔔</span>
+                    <a href="#">Job Alert</a>
+                    <span class="badge">09</span>
+                </li>
+                <li class="menu-item">
+                    <span class="icon">⚙️</span>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+            <a href="#" class="logout">
+                <span class="icon">↩️</span>
+                <span>Log-out</sp>
+            </a>
+        </aside>
+
+        <main class="container">
+            <h2>Hello, Kitty Heaven</h2>
+            <p>Here is your daily activities and job alerts</p>
+
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div>
+                        <div class="stat-number">589</div>
+                        <div class="stat-label">Applied jobs</div>
+                    </div>
+                    <i class='bx bxs-briefcase' ></i>
+                </div>
+                <div class="stat-item">
+                    <div>
+                        <div class="stat-number">238</div>
+                        <div class="stat-label">Favorite jobs</div>
+                    </div>
+                    <i class='bx bx-bookmark'></i>
+                </div>
+                <div class="stat-item">
+                    <div>
+                        <div class="stat-number">574</div>
+                        <div class="stat-label">Job Alerts</div>
+                    </div>
+                    <i class='bx bxs-bell-ring'></i>
+                </div>
+            </div>
+
+            <div class="edit_profile">
+                <img src="/img/profile.webp" alt="">
+                <div class="edit_profile_detaile">
+                    <h2>Your profile editing is not completed</h2>
+                    <p>Complete your profile editing & build your custom Resume</p>
+                </div>
+                <a href="#" class="btn_edit_profile">
+                    Edit Profile <i class='bx bx-right-arrow-alt'></i> 
+                </a>
+            </div>
+            
+            <div class="Recently_Applied">
+                <span>Recently Applied</span>
+                <span class="view_all">
+                    <span>View All</span> 
+                    <i class='bx bx-right-arrow-alt'></i> 
+                </span>
+            </div>
+
+            <div class="filter_section">
+                <span>Job</span>
+                <div>Date Applied</div>
+                <span>Sataus</span>
+                <span>Action</span>
+            </div>
+
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+            <div class="job-card">
+                <div class="job-info">
+                    <img src="/img/profile.webp" alt="Company Logo" class="company-logo">
+                    <div class="job-details">
+                        <h3 class="job-title">Networking Engineer <span class="badge">Remote</span></h3>
+                        <p class="job-location">
+                            <i class='bx bx-location-plus'></i> 
+                            <span class="location">Washington</span> 
+                            <i class='bx bx-dollar' ></i> 
+                            <span>$50k-80k/month</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="job-meta">
+                    <p class="date">Feb 2, 2019 19:28</p>
+                    <p class="status">✔ Active</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+           
+        </main>
+        
+    </div>
+
+   
+</body>
+</html>
