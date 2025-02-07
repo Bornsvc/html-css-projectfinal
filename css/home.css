@@ -10,7 +10,7 @@ a {
 }
 
 i {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .hearder {
@@ -110,12 +110,12 @@ nav {
     .job_card_container {
         display: flex;
         align-items: center;
-        gap: 50px;
+        gap: 30px;
         padding: 0 40px;
         .job-card {
             background: #e3f4dc;
             border-radius: 10px;
-            padding: 20px 30px;
+            padding: 10px 30px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     
             .company {
@@ -159,7 +159,7 @@ nav {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-top: 80px;
+                margin-top: 50px;
 
                     .salary {
                     font-size: 18px;
@@ -184,13 +184,6 @@ nav {
               
           }
     }
-
-    
-      
-      
-      
-      
-
 }
 
 .Most_Popular_Vacancies_section {

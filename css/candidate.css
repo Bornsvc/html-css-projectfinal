@@ -32,10 +32,10 @@ nav {
             color: green;
         }
 
-        a:nth-child(5)::after {
+        a:nth-child(3)::after {
             content: "";
             position: absolute;
-            bottom: -4px;
+            bottom: -5px;
             left: 0;
             border-radius: 8px;
             height: 4px;
@@ -46,7 +46,7 @@ nav {
         a::before {
             content: "";
             position: absolute;
-            bottom: -5px;
+            bottom: -4px;
             height: 4px;
             border-radius: 8px;
             width: 100%;
@@ -101,8 +101,9 @@ nav {
                 transition: 0.3s;
                 position: relative;
     
-                .icon {
+                i {
                     margin-right: 10px;
+                    font-size: 1.5rem;
                 }
                 
                 .badge {
@@ -115,10 +116,30 @@ nav {
                     right: 10px;
                 }
             }
+            .menu-item:nth-child(1) {
+                i {
+                    color: rgb(136, 137, 140);
+                }
+            }
+            .menu-item:nth-child(2) {
+                i {
+                    color: rgb(48, 109, 242);
+                }
+            }
+
+            .menu-item:nth-child(3) {
+                i {
+                    color: rgb(242, 48, 48);
+                }
+            }
+            .menu-item:nth-child(4) {
+                i {
+                    color: rgb(227, 233, 59);
+                }
+            }
             
             .menu-item:hover, .menu-item.active {
                 background: #d4f4d4;
-                border-radius: 5px;
                 position: relative;
             }
             .menu-item.active::after {
@@ -374,4 +395,62 @@ nav {
     }
 }
 
+.footer {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #000; 
+    color: #ccc; 
 
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    
+        .footer-section {
+            flex: 1;
+            padding: 10px 100px;
+        
+            .location {
+                color: #777;
+            }
+        
+                h3 {
+                    color: #fff;
+                    font-size: 1.5rem;
+                    margin-bottom: 30px;
+                }
+        
+                p, ul {
+                font-size: 1rem;
+                line-height: 1.6;
+                margin-bottom: 20px;
+        
+        
+                strong {
+                    color: #777;
+                    font-size: 1rem;
+                }
+                span {
+                    font-size: 1.1rem;
+                }
+                }
+                ul {
+                    list-style: none;
+                    padding: 0;
+        
+                    li {
+                        margin-bottom: 8px;
+                        a {
+                            color: #777;
+                            text-decoration: none;
+                            transition: color 0.3s;
+                        }
+                        a:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+        }
+    }
+}
